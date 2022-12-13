@@ -2,7 +2,7 @@ let ball;
 
 
 function setup() {
-  createCanvas(400, 400); 
+  createCanvas(600, 200); 
   ball = new Walker();
 }
 
@@ -31,6 +31,7 @@ class Walker {
   
   display() {
     //display walker
+    fill(200, 0, 0);
 	ellipse(this.x, this.y, this.w);
   }
 }
